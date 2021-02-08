@@ -13,8 +13,13 @@ body{
 	margin: 0 auto;
 }
 .nav{
+	position: fixed;
+	top: 0%;
+	width: 100%;
+	background-color: rgba(255,255,255,1);
 	padding: 20px;
 	box-shadow: 10px 0 10px rgba(0,0,0,0.5);
+	z-index: 5
 }
 .nav > .container{
 	display: flex;
@@ -93,6 +98,7 @@ body{
 	/*border: 1px solid lightgreen;*/
 	margin: 20px;
 	transition: .3s;
+	z-index: 3
 }
 .xizmatlar__item:hover{
 	transform: scale(1.1);
@@ -131,4 +137,50 @@ body{
 	color: #00BAFC;
 	margin-left: 10px;
 	text-decoration: underline;
+}
+.ishlaymiz{
+	margin-top: 200px;
+
+}
+.ishlaymiz__content{
+	text-align: center;
+}
+.ishlaymiz__content-subtext{
+	width: 700px;
+	margin: 20px auto;
+}
+.photo-content{
+	display: flex;
+	align-items: center;
+	/*justify-content: space-between;*/
+	margin-top: 80px;
+}
+.ishlaymiz__image .ishlaymiz__text{
+	width: 50%;
+}
+.ishlaymiz__text{
+	margin-left: 150px;
+}
+.ishlaymiz__text-sub{
+	width: 500px;
+	line-height: 1.5;
+}
+.right{
+	flex-direction: row-reverse;
+}
+.ttt{
+	margin-right: 150px;
+}
+.talabalar{
+	text-align: center;
+	margin: 50px;
+}
+.a{
+	border: 1px solid #00BAFC;
+	padding: 10px 15px;
+	background-color: #00BAFC;
+	color: white;
+	border-radius: 5px;
+	margin-top: 50px;
+	/*text-align: center;*/
 }
