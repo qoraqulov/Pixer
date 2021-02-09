@@ -187,7 +187,7 @@ body{
 }
 .buyritma{
 	background-color: #00BAFC;
-	height: 100vh;
+	height: 90vh;
 }
 .buyritma .container{
 	padding: 50px;
@@ -250,4 +250,59 @@ body{
 	color: white;
 	font-weight: 700;
 	border: none;
+}
+.last .container{
+	display: flex;
+}
+.last{
+	height: 350px;
+	background-color: #191919;
+}
+.copyright{
+	margin-top: 75px;
+	width: 30%;
+	color: white;
+}
+.sayt{
+	margin-top: 70px;
+	width: 30%;
+	color: white;
+	transform: translateX(50px);
+}
+.internet{
+	margin-top: 70px;
+	width: 30%;
+	color: white;
+}
+.last__text{
+	width: 300px;
+	line-height: 1.8;
+}
+.last__title{
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+.sayt-title{
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+.sayt-text{
+	/*font-size: 16px;*/
+	margin-bottom: 10px;
+}
+.internet-list{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.internet-item-link{
+	color: white;
+	padding: 10px 0;
+}
+.internet-title{
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+.internet-image{
+	transform: translateY(6px);
 }
