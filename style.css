@@ -6,7 +6,7 @@
 	text-decoration: none;
 }
 body{
-	  font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 .container{
 	width: 1140px;
@@ -103,6 +103,7 @@ body{
 .xizmatlar__item:hover{
 	transform: scale(1.1);
 	box-shadow: 0 0 10px 5px rgba(0,0,0,0.2);
+	border-radius: 5px;
 }
 .xizmatlar__image{
 	width: 80%;
@@ -183,4 +184,70 @@ body{
 	border-radius: 5px;
 	margin-top: 50px;
 	/*text-align: center;*/
+}
+.buyritma{
+	background-color: #00BAFC;
+	height: 100vh;
+}
+.buyritma .container{
+	padding: 50px;
+	text-align: center;
+	transform: translateY(35px);
+}
+.buyritma__title{
+	color: white;
+}
+.buyritma__text{
+	width: 700px;
+	margin: 20px auto;
+	color: white;
+}
+.buyritma__form{
+	width: 300px;
+	height: 280px;
+	background-color: white;
+	border-radius: 5px;
+	margin: 0 auto;
+	transform: translateY(20px);
+}
+.buyritma-label{
+}
+::placeholder{
+	transform: translateX(-23px);
+	color: black;
+	font-weight: 500;
+	font-size: 17px;
+}
+.input{
+	transform: translateY(20px) translateX(25px);
+	display: block;
+	border: none;
+	outline: none;
+	background-color: rgba(0,0,0,0.1);
+	padding: 10px 40px;
+	border-radius: 5px;
+}
+.in2{
+	margin-top: 20px;
+}
+.dur{
+	background-color: rgba(0,0,0,0.1);
+	border-radius: 5px;
+	margin-top: 40px;
+	font-size: 17px;
+	border: none;
+	outline: none;
+	width: 83%;
+	padding: 10px 15px;
+}
+.button{
+	margin-top: 20px;
+	padding: 10px;
+	font-size: 17px;
+	width: 65%;
+	border-radius: 5px;
+	background-color: #00BAFC;
+	color: white;
+	font-weight: 700;
+	border: none;
 }
