@@ -186,8 +186,9 @@ body{
 	/*text-align: center;*/
 }
 .buyritma{
+	width: 100%;
 	background-color: #00BAFC;
-	height: 90vh;
+	height: 600px;
 }
 .buyritma .container{
 	padding: 50px;
@@ -255,7 +256,8 @@ body{
 	display: flex;
 }
 .last{
-	height: 350px;
+	width: 100%;
+	height: 400px;
 	background-color: #191919;
 }
 .copyright{
@@ -305,4 +307,146 @@ body{
 }
 .internet-image{
 	transform: translateY(6px);
+}
+
+@media (max-width: 1200px){
+	.container{
+		max-width: 1050px;
+	}
+}
+@media (max-width: 1100px){
+	.container{
+		max-width: 950px;
+	}
+	.section .container{
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		align-items: center;
+	}
+	.section__ifreme{
+		margin-top: 60px;
+		display: flex;
+		flex-direction: row-reverse;
+	}
+}
+@media (max-width: 1000px){
+	.container{
+		max-width: 850px;
+	}
+	.section .container{
+		justify-content: center;
+		display: flex;
+	}
+	.nav__list{
+		display: none;
+	}
+}
+@media (max-width: 900px){
+	.container{
+		max-width: 750px;
+	}
+	.section .container{
+		justify-content: center;
+		display: flex;
+		align-items: center;
+	}
+	.section__ifreme{
+		margin: 30px auto;
+	}
+	.nav__list{
+		display: none;
+	}
+}
+@media (max-width: 800px){
+	.container{
+		max-width: 650px;
+	}
+	.section .container{
+		display: flex;	
+		justify-content: center;
+		align-items: center;
+	}
+	.nav__list{
+		display: none;
+	}
+}
+@media (max-width: 800px){
+	.container{
+		max-width: 550px;
+	}
+	.ishlaymiz__content{
+		display: flex;
+		flex-direction: column;
+	}
+	.photo-content{
+		display: flex;
+		flex-direction: column;
+	}
+	.last .container{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.xizmatlar__text{
+		width: 50%;
+	}
+	.last__text{
+		width: 300px;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.link{
+		display: flex;
+		flex-direction: column;
+	}
+	.xizmatlar__link{
+		width: 50%;
+		margin: 15px auto;
+	}
+	.ishlaymiz__content-subtext{
+		width: 50%;
+	}
+	.ishlaymiz__title{
+		width: 70%;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.ishlaymiz__text-sub{
+		width: 60%;
+		text-align: center;
+		margin: 0 auto;
+	}
+	.ishlaymiz__image-photo{
+		display: flex;
+		justify-content: center;
+	}
+	.nav__list{
+		display: none;
+	}
+}
+@media (max-width: 700px){
+	.container{
+		max-width: 450px;
+	}
+	.nav__list{
+		display: none;
+	}
+}
+@media (max-width: 600px){
+	.container{
+		max-width: 430px;
+	}
+	.nav__list{
+		display: none;
+	}
+}
+@media (max-width: 500px){
+	.container{
+		max-width: 90%;
+	}
+	.nav__list{
+		display: none;
+	}
 }
